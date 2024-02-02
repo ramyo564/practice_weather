@@ -8,3 +8,4 @@ spring.jpa.show-sql=true
 spring.jpa.database=mysql
 openweathermap.key={API_KEY}
 logging.config=classpath:logback-spring.xml
+spring.mvc.pathmatch.matching-strategy=ANT_PATH_MATCHER
